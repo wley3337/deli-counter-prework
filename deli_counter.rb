@@ -12,7 +12,6 @@ def line(katz_deli)
       end
       puts "The line is currently: #{katz_deli_line_list.join(", ")}"
       end
-  
   end
 end
 
