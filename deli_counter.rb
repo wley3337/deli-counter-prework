@@ -9,6 +9,7 @@ def line(katz_deli)
       katz_deli_line_list = katz_deli
       katz_deli_line_list.map! |x|
         "#{katz_deli_line_list.index + 1}. " + x
+      puts "The line is currently: #{katz_deli_line_list.join(,)"
       end
   
   end
