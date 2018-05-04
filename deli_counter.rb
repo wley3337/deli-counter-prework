@@ -6,9 +6,8 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-      katz_deli_line_list = []
-      katz_deli.each.with_index(1) do |x, index|
-          #{index}. #{x}"
+      katz_deli_line_list = katz_deli
+      katz_deli_line_list.map! 
       end
   
   end
